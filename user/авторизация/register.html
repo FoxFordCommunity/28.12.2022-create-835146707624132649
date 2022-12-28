@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация и Регистрация</title>
+    <link rel="stylesheet" href="/user/авторизация/css/main.css">
+    <link rel="stylesheet" href="/user/авторизация/css/reset.css">
+</head>
+<body>
+    
+    <!-- Регистрация -->
+    <div class="flex">
+        <div class="block-img"></div>
+        <form class="form" action="vendor/signup.php" method="post" enctype="multipart/form-data">
+            <p class="text-reg">Регистрация</p>
+            <input class="input-full-name" type="text" name="full-name" placeholder="ФИО">
+            <input class="input-login" type="text" name="login" placeholder="Логин">
+            <input class="input-email" type="email" name="email" placeholder="Email">
+            <label class="text-img" for="img">Фото профиля:</label>
+            <input class="input-img" name="avatar" type="file">
+            <input class="input-pass" type="password" name="password" placeholder="Пароль">
+            <input class="input-pass" type="password" name="password_confirm" placeholder="Подтверждения пароля">
+            <p class="under-text-reg">У вас уже есть аккаунта? - <a class="link-reg" href="/user/авторизация/login.html">Войдите</a></p>
+            <button class="btn-reg">Зарегистрироваться</button>
+        </form>
+    </div>
+
+</body>
+</html>

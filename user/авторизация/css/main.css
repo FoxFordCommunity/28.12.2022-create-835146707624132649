@@ -1,0 +1,121 @@
+body {
+    background-color: #C7F8FF;
+    margin-top: 10%;
+    margin-left: 29%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.form {
+    background-color: rgb(255, 255, 255);
+    width: 390px;
+    height: 500px;
+    border-radius: 0 10px 10px 0;
+}
+
+.text-reg {
+    margin: 40px 0 30px 40px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.text-login {
+    margin: 40px 0 100px 40px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.input-full-name,
+.input-login,
+.input-pass,
+.input-email {
+    display: block;
+    margin: 0 0 0 40px;
+    border-bottom: 1px solid rgb(150, 150, 150);
+    width: 300px;
+    padding-bottom: 3px;
+}
+
+.input-email {
+    margin-bottom: 10px;
+}
+
+.input-img {
+    margin: 0 0 0 40px;
+    margin-top: 10px;
+}
+
+.text-img {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 0 0 40px;
+}
+
+.input-pass,
+.input-login,
+.input-email {
+    margin-top: 20px;
+}
+
+.under-text {
+    margin-left: 40px;
+}
+
+.under-text-reg {
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.link-reg {
+    color: blue;
+    font-weight: 400;
+}
+
+.under-text {
+    margin-top: 20px;
+}
+
+.btn-reg,
+.btn-log {
+    padding: 10px 20px;
+    background-color: rgb(6, 85, 255);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 19px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+.btn-reg {
+    margin-left: 13%;
+}
+
+.btn-log {
+    margin-left: 35%;
+}
+
+.block-img {
+    background: url(/user/авторизация/img/123.jpg) no-repeat;
+    background-size: cover;
+    width: 390px;
+    height: 500px;
+    border-radius: 10px 0 0 10px;
+}
+
+.msg {
+    padding: 10px 50px;
+    color: white;
+    background-color: rgb(255, 79, 79);
+    border-radius: 10px;
+}
+
+.text {
+    margin-top: 20px;
+    width: 780px;
+    text-align: center;
+}
